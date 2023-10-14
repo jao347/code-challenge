@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Needed:
+GIT
+Node
+
+git clone https://github.com/jao347/code-challenge.git
+
+npm install
+
 ## Getting Started
 
 First, run the development server:
