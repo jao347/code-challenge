@@ -143,16 +143,16 @@ const Form3 = ({prevStep, stepData}: any) => {
       <p className='text-[13px] lg:inline flex font-bold mb-4'>
         <input type="checkbox" className='mr-3' checked={checkboxChecked} onChange={handleCheckboxChange} />
         <span className='lg:inline hidden'>
-          By checking this box and clicking the "AGREE AND SUBMIT" button below, I represent that I am 18+ years of age and have read and agreed to the National Injury Bureau <a href="" className='text-blue-500'>Terms and Conditions</a> and <a href="" className='text-blue-500'>Privacy Policy</a>; I consent to the transfer of information that I provide on this site to third-party legal service providers and non-legal service providers, third party partners and their affiliates and service providers; I agree to be contacted by email & telephone, which may include artificial or pre-recorded calls and/or SMS text messages, delivered via automated technology, to the email and phone number that I have provided.
+          By checking this box and clicking the &quot;AGREE AND SUBMIT&quot; button below, I represent that I am 18+ years of age and have read and agreed to the National Injury Bureau <a href="" className='text-blue-500'>Terms and Conditions</a> and <a href="" className='text-blue-500'>Privacy Policy</a>; I consent to the transfer of information that I provide on this site to third-party legal service providers and non-legal service providers, third party partners and their affiliates and service providers; I agree to be contacted by email & telephone, which may include artificial or pre-recorded calls and/or SMS text messages, delivered via automated technology, to the email and phone number that I have provided.
         </span>
         <span className='lg:hidden flex'>I agree the terms below.</span>
       </p>
       <button type="submit" className="bg-[#fbbf24] hover:bg-gray-700 text-black hover:text-white font-bold py-2 px-4 rounded flex justify-center items-center gap-3">
         AGREE AND SUBMIT <HiArrowRight size={'20px'} />
       </button>
-      {error && <p className='text-red-500 mt-2 font-bold text-[12px]'>Please read and tick the checkbox to "Agree and Submit"</p>}
+      {error && <p className='text-red-500 mt-2 font-bold text-[12px]'>Please read and tick the checkbox to &quot;Agree and Submit&quot;</p>}
       <span className='lg:hidden inline text-[13px] font-bold mt-3'>
-          By checking this box and clicking the "AGREE AND SUBMIT" button below, I represent that I am 18+ years of age and have read and agreed to the National Injury Bureau <a href="" className='text-blue-500'>Terms and Conditions</a> and <a href="" className='text-blue-500'>Privacy Policy</a>; I consent to the transfer of information that I provide on this site to third-party legal service providers and non-legal service providers, third party partners and their affiliates and service providers; I agree to be contacted by email & telephone, which may include artificial or pre-recorded calls and/or SMS text messages, delivered via automated technology, to the email and phone number that I have provided.
+          By checking this box and clicking the &quot;AGREE AND SUBMIT&quot; button below, I represent that I am 18+ years of age and have read and agreed to the National Injury Bureau <a href="" className='text-blue-500'>Terms and Conditions</a> and <a href="" className='text-blue-500'>Privacy Policy</a>; I consent to the transfer of information that I provide on this site to third-party legal service providers and non-legal service providers, third party partners and their affiliates and service providers; I agree to be contacted by email & telephone, which may include artificial or pre-recorded calls and/or SMS text messages, delivered via automated technology, to the email and phone number that I have provided.
         </span>
     </div>
   </form>
